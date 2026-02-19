@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 
 # Run
-`cd bokeh_django`
+`cd django_embed`
 
 Granian `granian --host 127.0.0.1 --port 8000 --access-log django_embed.asgi:application --interface asgi`
 
