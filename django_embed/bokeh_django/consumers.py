@@ -223,8 +223,10 @@ class WSConsumer(AsyncWebsocketConsumer, ConsumerHelper):
 
     async def connect(self):
         log.info('WebSocket connection opened')
-
+        log.info(f'self.scope["subprotocols"] {self.scope["subprotocols"]}')
+        print(f'self.scope["subprotocols"] {self.scope["subprotocols"]}')
         subprotocols = self.scope["subprotocols"]
+        
         if len(subprotocols) != 2 or subprotocols[0] != 'bokeh':
             await self.close()
             raise RuntimeError("Subprotocol header is not 'bokeh'")

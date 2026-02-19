@@ -144,5 +144,5 @@ STATICFILES_FINDERS = (
 
 THEMES_DIR = MODULE_DIR / "themes"
 
-bokeh_settings.resources = 'server'
+bokeh_settings.resources = 'inline'
 
