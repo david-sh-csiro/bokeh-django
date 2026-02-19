@@ -1,6 +1,7 @@
 bokeh==3.8.2
 #bokeh-django==0.2.1
 bokeh_sampledata==2025.0
+channels==4.3.2
 daphne==4.2.1
 Django==6.0.2
 granian==2.7.1
