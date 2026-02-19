@@ -1,4 +1,4 @@
-# bokeh-django
+# bokeh-django websocket protocol repro
 Minimal reproduction for a reproducing web socket subprotocols
 
 # Dev environment
