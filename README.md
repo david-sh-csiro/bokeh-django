@@ -4,9 +4,10 @@ Minimal reproduction for a reproducing web socket subprotocols
 # Dev environment
 ## Create venv
 python -m venv venv
+
 source venv/bin/activate
 ## Install Packages
-pip install -rd requirements.txt
+pip install -r requirements.txt
 
 
 # Run
